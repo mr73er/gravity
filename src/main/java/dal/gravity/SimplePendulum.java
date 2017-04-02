@@ -6,7 +6,7 @@ package dal.gravity;
 public class SimplePendulum extends AbstractEarthPendulum {
 
     private double angularFrequency, periodOfMotion;
-
+    GravityConstant g = new GravityConstant(0);
     /**
      * Creates a new Pendulum instance using
      * inLength: the string length (>0)
